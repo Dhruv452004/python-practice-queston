@@ -1,0 +1,22 @@
+phela kadam
+
+python3 -m venv <folder_name>
+
+python3 -m venv djpappu
+
+
+
+//////////////////
+
+dusra kadam
+
+source <folder_name>/bin/activate
+
+source djpappu/bin/activate
+
+//////////////////
+
+tisra kadam
+deactivate
+
+
