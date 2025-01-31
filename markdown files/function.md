@@ -32,14 +32,14 @@ Function ko call karte waqt uska naam likhte hain, aur agar koi argument hai toh
 # Function with argument.
 - Python mein function with arguments ka concept simple hai. Aap function banate ho aur usmein values (arguments) pass karte ho. Yahan ek example de raha hoon:
 
-      def greet(name):
-          print(f"Hello, {name}!")
+            def greet(name):
+                print(f"राम राम, {name}!")
+                        
+            greet("Loha don")  # "Loha don" yeh argument function ko pass ho raha hai
+            #Output राम राम, Loha don!
 
-      greet("Ravi")  # "Ravi" yeh argument function ko pass ho raha hai
-      #Output Hello, Ravi!
-
-
-- Is example mein greet ek function hai jo ek argument name ko accept karta hai. Jab hum greet("Ravi") call karte hain, toh function ko "Ravi" argument milta hai, aur output hota hai:
+- Is example mein greet ek function hai jo ek argument name ko accept karta hai. Jab hum greet("Loha don")
+call karte hain, toh function ko "Loha don" argument milta hai, aur output hota hai:
 
 
 # Function with parameter.
@@ -48,17 +48,17 @@ Toh, parameter aur argument ka difference yeh hai:
 
       # Function definition with parameters
         def greet(name, age):  
-            print(f"Hello, {name}! You are {age} years old.")
+            print(f"राम राम, {name}! You are {age} years old.")
 
         # Function call with arguments
-        greet("Ravi", 25)  
+        greet("Loha don", 25)  
 
-        #Output Hello, Ravi! You are 25 years old.
+        #Output राम राम, Loha don! You are 25 years old.
 
 
 - Yahan pe:
 - name aur age function ke parameters hain.
-- Jab hum greet("Ravi", 25) call karte hain toh "Ravi" aur 25 arguments hain.
+- Jab hum greet("Loha don", 25) call karte hain toh "Loha don" aur 25 arguments hain.
 
 
 - Parameter: Function ke definition mein jo variable likhe hote hain, unhe parameter kehte hain.
@@ -77,30 +77,13 @@ Toh, parameter aur argument ka difference yeh hai:
 - Example
 
         def greet(name, age=25):
-            print(f"Hello, {name}! You are {age} years old.")
+            print(f"राम राम, {name}! apki  {age}")
+            print(f"राम राम, {name}! apki  {100}")
         
 - Yahan:
 
 - name parameter ko zaroori value deni hoti hai jab function call karein.
 - age parameter ko default value 25 di gayi hai, agar hum age pass nahi karte toh wo 25 lelega.
-
-## Function Call Examples:
-- Agar argument pass kiya gaya:
-
-
-      greet("Ravi", 30)
-      # Output: Hello, Ravi! You are 30 years old.
-
-
-- Agar argument pass nahi kiya gaya: tho ye default value print krega
-
-      greet("Ravi")
-      # Output: Hello, Ravi! You are 25 years old.
-
-
-
-
-
 
 
 # Function with return statement.
@@ -177,7 +160,7 @@ Toh, parameter aur argument ka difference yeh hai:
 
 - recursion ye tab jada use hogi jab aap advance level pr code likhoge. aur shurat mein ye bilkul samaj ni ayga bar bar practice krni pdegi 
 
-- recursion ek trha se loop hi hota h jo kaam loop mein kiye jata  h vhi same recusion mein kre jaa skte h bs recusion mein task perform krne se code ki line kam hoti kam line mein hi kaam ho jata h example dekho upr factorial nikala hmne recursion ki madad se jb  loop ki madad se krte h dekho niche 
+- recursion ek trha se loop hi hota h jo kaam loop mein kiye jata  h vhi same recusion mein kre jaa skte h bs recusion mein task perform krne se code ki line kam hoti kam line mein hi kaam ho jata h example dekho upr factorial nikala hmne recursion ki madad se ab  loop ki madad se krte h dekho niche 
 
        n = int(input("Enter number: "))
        result = 1
@@ -304,12 +287,12 @@ Loops generally faster aur memory-efficient hote hain, kyunki ye extra stack fra
                 print(f"{greeting}, {name}!")
 
       # Function call
-      greet_message("Hello", "Ram", "Shyam", "Mohan")
+      greet_message("राम राम", "Ram", "Shyam", "Mohan")
 
       #Output
-      Hello, Ram!
-      Hello, Shyam!
-      Hello, Mohan!
+      राम राम, Ram!
+      राम राम, Shyam!
+      राम राम, Mohan!
 
 
 
@@ -317,17 +300,6 @@ Loops generally faster aur memory-efficient hote hain, kyunki ye extra stack fra
 - *args sirf positional arguments ko handle karta hai.
 
 - Agar keyword arguments (key-value pairs) ka use karna ho, toh **kwargs ka use karte hain.
-
-
-
-## Real-life Example:
-- Imagine ek billing system banaya jisme unknown number of items ka price add karna ho:
-
-         def calculate_total(*prices):
-            return sum(prices)
-
-        # Function call
-        print(calculate_total(100, 200, 300)) # Output: 600
 
 
 # Function with **kwargs:
@@ -342,10 +314,10 @@ Loops generally faster aur memory-efficient hote hain, kyunki ye extra stack fra
                 print(f"{key}: {value}")
 
         # Function call
-        student_details(name="Raj", age=20, grade="A")
+        student_details(name="Loha", age=20, grade="A")
 
         # Output 
-            name: Raj
+            name: Loha
             age: 20
             grade: A
 

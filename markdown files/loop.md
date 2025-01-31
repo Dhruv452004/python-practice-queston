@@ -23,8 +23,8 @@ i har baar ek naya number le raha hai range ke andar se.
 ## Example 2: Ek list ke elements print karna
       fruits = ['apple', 'banana', 'cherry']
       for fruit in fruits:
-      print(fruit)
-      #Output: apple banana cherry
+           print(fruit)
+           #Output: apple banana cherry
 ]
 
 ## agr samaj ni aya tho idhr dekh nalle.
@@ -42,9 +42,9 @@ Ye tab use hota hai jab aapko pata na ho ki loop kab rukega, lekin ek condition 
 
     i = 1
     while i <= 5:  # Jab tak i ki value 5 se chhoti ya barabar hai
-    print(i)
-    i += 1  # i ki value har baar 1 se badhao
-    #Output: 1 2 3 4 5 
+          print(i)
+          i += 1  # i ki value har baar 1 se badhao
+          #Output: 1 2 3 4 5 
 ]
 
 ## agr samaj ni aya tho idhr dekh nalle.
