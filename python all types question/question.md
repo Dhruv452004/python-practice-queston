@@ -161,9 +161,111 @@
 <br>
 
 <details>
-    <summary style="color: white;">
-        aur bhi question add krunga isme lekin abhi phele ye sole kar
+    <summary style="color: red;">
+        Question 21: "Remove_Duplicates_Set"
     </summary>
+    Tumhe ek list diya gaya hai, jaise:
+    <pre><code>numbers = [1, 2, 2, 3, 4, 4, 5]</code></pre>
+    Tumhe ek function banani hai jo list se duplicates hata kar ek unique elements ki sorted list return kare.
 </details>
 <br>
+
+<details>
+    <summary style="color: red;">
+        Question 22: "Factorial_Recursive"
+    </summary>
+    Tumhe ek number diya gaya hai num = 5. Tumhe ek recursive function banani hai jo uska factorial calculate kare. 
+</details>
+<br>
+
+<details>
+    <summary style="color: red;">
+        Question 23: "Key_Exist_Dict"
+    </summary>
+   Tumhe ek dictionary aur ek key diya gaya hai. Tumhe ek function banani hai jo check kare ki diya gaya key dictionary mein exist karti hai ya nahi.
+    <pre><code>my_dict = {'a': 10, 'b': 20, 'c': 30}
+key = 'b'
+</code></pre>
+</details>
+<br>
+
+<details>
+    <summary style="color: red;">
+        Question 24: "Kwargs_Merge_Dicts"
+    </summary>
+    Tumhe ek function banani hai jo multiple dictionaries ko **kwargs ka use karke merge kare aur ek final dictionary return kare.
+    <pre><code>dict1 = {'a': 1, 'b': 2}
+dict2 = {'c': 3, 'd': 4}
+</code></pre>
+</details>
+<br>
+
+<details>
+    <summary style="color: red;">
+        Question 25: "Tuple_To_Dict"
+    </summary>
+    Tumhe ek list of tuples diya gaya hai, jisme har tuple mein ek key-value pair hai. Tumhe ek function banani hai jo is list ko dictionary mein convert kare.
+    <pre><code>data = [('a', 1), ('b', 2), ('c', 3)]</code></pre>
+</details>
+<br>
+
+<details>
+    <summary style="color: red;">
+        Question 26: "Set_Symmetric_Difference"
+    </summary>
+     Tumhe do sets diye gaye hain. Tumhe ek function banani hai jo dono sets ka symmetric difference return kare, yani jo elements sirf ek set mein hain lekin dono mein nahi.
+    <pre><code>set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+</code></pre>
+</details>
+<br>
+
+<details>
+    <summary style="color: red;">
+        Question 27: "Find_Second_Largest"
+    </summary>
+     Tumhe ek list of numbers diya gaya hai. Tumhe ek function banani hai jo list ka second largest number return kare.
+    <pre><code>numbers = [10, 20, 4, 45, 99]
+</code></pre>
+</details>
+<br>
+
+<details>
+    <summary style="color: red;">
+        Question 28: "Recursive_Sum_List"
+    </summary>
+      Tumhe ek list of numbers diya gaya hai. Tumhe ek recursive function banani hai jo list ke saare elements ka sum return kare.
+    <pre><code>numbers = [1, 2, 3, 4, 5]
+</code></pre>
+</details>
+<br>
+
+<details>
+    <summary style="color: red;">
+        Question 29: "Swap_Args"
+    </summary>
+      Tumhe ek function banani hai jo do arguments accept kare aur unko swap karke return kare.
+    <pre><code>def swap(10, 20):
+</code></pre>
+</details>
+<br>
+
+<details>
+    <summary style="color: red;">
+        Question 30: "Char_Frequency"
+    </summary>
+      Tumhe ek string diya gaya hai. Tumhe ek function banani hai jo har character ki frequency count karke ek dictionary return kare.
+    <pre><code>text = "banana"</code></pre>
+</details>
+<br>
+
+
+<details>
+    <summary style="color: red;">
+        aur bhi question add krunga isme lekin abhi phele ye sole kar
+    </summary>
+     <pre><code></code></pre>
+</details>
+<br>
+
 </body>
