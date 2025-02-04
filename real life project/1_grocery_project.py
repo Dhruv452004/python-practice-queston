@@ -47,10 +47,10 @@ def calculate_total():
         print("\n" + "*" * 80)  # Yeh line design ke liye hai
 
     print("\n" + "--" * 20)  # Yeh line design ke liye hai
-    return (f"\nYour total price is: ₹{total_price}")  # Total price return karega
+    print(f"\nYour total price is: ₹{total_price}")  # Total price return karega
 
 # Function call karein
-print(calculate_total())
+calculate_total()
 print("\n" + "--" * 20)  # Yeh line design ke liye hai
 
 
